@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/Vazir.ttf');
+}
+body{
+    font-family: vazir,sans-serif;
+}
+.lalezar{
+  font-family:'lalezar';
+}
+@media screen and (min-width:768px){
+ .position-md-fixed{
+    position: fixed;
+  }
+}
+.course-list{
+  width: 250px;
+  border:1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 0;
+  background:#fff;
+}
+.course-list-item{
+  display: flex;
+  padding: 10px;
+
+}
+.course-list-item:hover{
+  background-color:#f2f2f2;
+}
+.header{
+  background-image: url(../images/header-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.see-more{
+  text-decoration: none;
+  
+}
+.border-primary:hover{
+  background: #0d6efd;
+}
+.border-success:hover{
+  background:#198754 ;
+}
+.border-warning:hover{
+  background:#ffc107 ;
+}
+.shadow1:hover{
+  color:#fff ;
+}
+.shadow1:hover .see-more{
+  color: #fff !important; 
+}
+.button{
+  width: 35%;
+
+}
+.card{
+  transition: all 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.color{
+  background:#f2f5fc;
+}
